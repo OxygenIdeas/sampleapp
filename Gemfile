@@ -13,6 +13,7 @@ end
 
 group :test do
   gem 'rspec'
+  gem 'spork'
 end
 
 # Use unicorn as the web server
