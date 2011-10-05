@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbea9ee3-abb0-45dd-a2ab-0eb8016658a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20111004202822_add_password_to_users.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20111004211307_add_salt_to_users.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sampleapp.iml" afterPath="$PROJECT_DIR$/.idea/sampleapp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webrat.log" afterPath="$PROJECT_DIR$/webrat.log" />
     </list>
@@ -41,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="5" selection-start="1552" selection-end="1552" vertical-scroll-proportion="1.4915572">
+            <state line="45" column="2" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="37" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.0">
+            <state line="112" column="6" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.92007434">
               <folding />
             </state>
           </provider>
@@ -98,7 +95,7 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="31" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+            <state line="9" column="42" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,7 +172,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Favorites" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,7 +405,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,18 +421,18 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="970" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="970" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="970" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="88" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="85" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -659,13 +656,6 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -697,6 +687,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -830,15 +827,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Development: sampleapp" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Production: sampleapp" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.routes" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.User" />
-      <item index="8" class="java.lang.String" itemvalue="Ruby.user" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.routes" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.User" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.user" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: sampleapp" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Production: sampleapp" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -892,16 +889,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1280" height="997" extended-state="0" />
+    <frame x="-2" y="-3" width="1284" height="1004" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.33789954" order="1" side_tool="true" content_ui="tabs" x="483" y="353" width="314" height="291" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32762557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.21803653" order="1" side_tool="true" content_ui="tabs" x="483" y="353" width="314" height="291" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6720368" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.44520548" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796317" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -938,7 +935,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rutas REST hechas, empieza la parte de contraseñas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contraseñas con metodo salt funcionando" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -954,6 +951,7 @@
     <MESSAGE value="Estilos propios con CSS" />
     <MESSAGE value="Usando partials" />
     <MESSAGE value="Rutas REST hechas, empieza la parte de contraseñas" />
+    <MESSAGE value="Contraseñas con metodo salt funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1009,11 +1007,6 @@
         <state line="10" column="7" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" />
@@ -1024,21 +1017,28 @@
         <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="37" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.0">
+        <state line="45" column="2" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="1552" selection-end="1552" vertical-scroll-proportion="1.4915572">
+        <state line="9" column="42" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="6" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.92007434">
           <folding />
         </state>
       </provider>

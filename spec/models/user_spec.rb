@@ -108,5 +108,21 @@ describe User do
       end
     end
 
+    describe "authenticate method" do
+
+      it "should return nil on email/password mismatch" do
+        User.authenticate(@attr[:email], "badpassword").should be_nil
+      end
+      it "should return nil for an email address with no user" do
+        User.authenticate("invalid@email", @attr[:password]).should be_nil
+      end
+      it "should return the user on email/password match" do
+        User.authenticate(@user.email, @user.password).should == @user
+      end
+
+    end
+
+
+
   end
 end
